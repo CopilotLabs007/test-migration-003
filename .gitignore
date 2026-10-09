@@ -1,0 +1,24 @@
+# Backend .gitignore
+target/
+.classpath
+.project
+.settings/
+*.jar
+*.war
+.idea/
+*.iml
+*.log
+.DS_Store
+*.swp
+
+# Frontend .gitignore (if separated into backend/frontend)
+node_modules/
+build/
+dist/
+coverage/
+playwright-report/
+test-results/
+.env
+.env.*
+!.env.example
+npm-debug.log*
